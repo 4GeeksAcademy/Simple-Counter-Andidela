@@ -11,3 +11,9 @@ import Home from "./component/home.jsx";
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
 
+let sec = 0;
+setInterval (() => {
+    const one = Math.floor((sec/1)%10)
+    sec +=1;
+},1000)
+
