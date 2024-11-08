@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter {
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+.fondo {
+    background-color: gray;
+    text-align: center;
+}
